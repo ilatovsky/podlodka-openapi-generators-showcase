@@ -1,0 +1,11 @@
+{
+  "extends": "@tsconfig/node16",
+  "include": ["*.ts", "generated*/**/*.ts"],
+  "compilerOptions": {
+    "declaration": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true
+  }
+}
